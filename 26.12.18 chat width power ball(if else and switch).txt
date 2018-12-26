@@ -1,0 +1,58 @@
+let userName = 'Jane';
+if (userName) {
+  console.log(`Hello, ${userName}!`)
+} else {
+  console.log ('false');
+}
+
+const userQuestion = (`Hello Magic Ball! It\'s ${userName}. How are you?`);
+console.log(userQuestion);
+
+const randomNumber = Math.floor(Math.random() * 8);
+const eightBall = randomNumber;
+if (eightBall === 0) {
+  console.log('Im good, thanks!');
+} else if (eightBall === 1) {
+  console.log('I feel not good, make me happy!');
+} else if (eightBall === 2) {
+  console.log('Norm!');
+} else if (eightBall === 3) {
+  console.log('I forgot my key, halp me find his!');
+} else if (eightBall === 4) {
+  console.log('Im very happy, because today sunny!');
+} else if (eightBall === 5) {
+  console.log('Good! Today my  Birsday!');
+} else if (eightBall === 6) {
+  console.log('Im sleepy!');
+} else if (eightBall === 7) {
+  console.log('Im careful, because today very slippery!');
+}
+
+//other variant width switch cases
+/*const eightBall = randomNumber;
+switch (eightBall) {
+  case 1:
+    console.log('It is certain.');
+    break;
+  case 2:
+    console.log('It is decidedly so.');
+    break;
+  case 3:
+    console.log('Reply hazy try again.');
+    break;
+  case 4:
+    console.log('Cannot predict now.');
+    break;
+  case 5:
+    console.log('Do not count on it.');
+    break;
+  case 6:
+    console.log('My sources say no.');
+    break;
+  case 7:
+    console.log('Outlook not so good.');
+    break;
+  case 8:
+    console.log('Signs point to yes.');
+    break;
+}*/
