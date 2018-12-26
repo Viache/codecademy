@@ -1,0 +1,23 @@
+// no change variable about kelvin
+const kelvin = 293;
+
+//we have celsius
+const celsius = kelvin - 273;
+
+//we have fahrenheit
+let fahrenheit = celsius * (9/5)+32;
+
+//round down the Fahrenheit temperature
+fahrenheit = Math.floor(fahrenheit);
+
+//string interpolation
+console.log(`${kelvin} Kelvin is about ${fahrenheit} degrees Fahrenheit.`);
+
+//we have newton
+let newton = celsius * (33/100);
+
+//round down
+newton = (Math.floor(newton));
+
+//string interpolation
+console.log(`The temperature is ${newton} degrees Newton.`);
