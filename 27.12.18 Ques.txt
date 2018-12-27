@@ -1,0 +1,7 @@
+let early = true;
+if (early){
+  console.log(`Entrance to the main hall from 22 to 10 hours through the emergency entrance.`);
+}
+if (!early) {
+  console.log(`Entrance to the main hall from 10 to 22 hours through the main entrance.`);
+}
