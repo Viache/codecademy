@@ -1,0 +1,17 @@
+let classNumber = Math.floor(Math.random() * 5);
+
+earlyTime = false;
+ageChildren = 12;
+if (earlyTime && ageChildren > 10){
+  classNumber += 10;
+}
+
+if (earlyTime && ageChildren > 10){
+  console.log(`Lessons from your child will begin in the class number: ${classNumber} at 8:00 am!`);
+} else if (earlyTime && ageChildren < 10){
+  console.log(`Lessons from your child will begin in the class number: ${classNumber} at 9:00 am!`);
+} else if (!earlyTime && ageChildren > 10){
+  console.log(`Lessons from your child will begin in the class number: ${classNumber} at 14:00 pm!`);
+} else if (!earlyTime && ageChildren < 10){
+  console.log(`Lessons from your child will begin in the class number: ${classNumber} at 15:00 pm!`);
+}
