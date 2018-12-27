@@ -1,0 +1,10 @@
+const lotery = Math.floor(Math.random() * 55);
+
+console.log(lotery);
+if (lotery === 11 || lotery === 22 || lotery === 33 || lotery === 44) {
+  console.log('Congrat! You won 100$');
+} else if (lotery > 11 || lotery < 11) {
+  console.log('Dont worry, try next time!');
+} else {
+  console.log('please enter only numeric');
+}
