@@ -1,0 +1,11 @@
+function monitorCount(rows, columns) {
+  return rows * columns;
+}
+const numOfMonitors = (monitorCount(5, 4));
+console.log(numOfMonitors);
+
+function ructWidthHight(width, height) {
+  return width * height;
+}
+const plusWAndH = (ructWidthHight(20, 7));
+console.log(plusWAndH);
