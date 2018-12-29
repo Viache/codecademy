@@ -1,0 +1,11 @@
+/*зароботок за день составляет 890дол. Какой зароботок получиться за 15 лет*/
+function monthMoney(dayMoney, monthM, yearMoneyCompany){
+  return dayMoney * monthM * yearMoneyCompany;
+}
+
+function yearsMoney(dayMoney, monthM, yearMoneyCompany){
+  return monthMoney(dayMoney, monthM, yearMoneyCompany) * 15;
+}
+
+const totalMoneyCompanyQ = yearsMoney(890, 30, 12);
+console.log(totalMoneyCompanyQ);

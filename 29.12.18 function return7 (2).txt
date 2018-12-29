@@ -1,0 +1,11 @@
+/*зароботок за 1 минуту $1.67, рабочий день 6 часов, 5дневный рабочий день, какой зароботок за 5 лет? деньги¬минуту * 60мин * рабочие„асы¬день * рабочиеƒни¬неделю * 4недели * 12мес€цев затем * на 5 лет*/
+function countYearMoneyy(MoneyPerminute, minute60, workDayHours, workDayPerWeek, week4, month12){
+  return MoneyPerminute * minute60 * workDayHours * workDayPerWeek * week4 * month12;
+}
+
+function CountManyYearMoney(MoneyPerminute, minute60, workDayHours, workDayPerWeek, week4, month12){
+  return countYearMoneyy(MoneyPerminute, minute60, workDayHours, workDayPerWeek, week4, month12) * 5;
+}
+
+const countTotalMoneyManyYear = CountManyYearMoney(2, 60, 6, 5, 4, 12);
+console.log(countTotalMoneyManyYear);

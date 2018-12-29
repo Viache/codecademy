@@ -1,0 +1,7 @@
+/* школа выпускает примерно 145 человек в год, сколько всего учеников было выпущено за 10 лет?*/
+function countStudents(students, year){
+  return students * year;
+}
+
+const totalStudents = countStudents(145, 10);
+console.log(totalStudents);
