@@ -1,0 +1,11 @@
+/*работаешь 4часа в день. Какое количество часов работаешь на прот 5 лет?*/
+function workHoursPerOneYear(workHoursPerOneDay, OneMonthh, month12m){
+  return workHoursPerOneDay * OneMonthh * month12m;
+}
+
+function workHoursPerManyYearr(workHoursPerOneDay, OneMonthh, month12m){
+  return workHoursPerOneYear(workHoursPerOneDay, OneMonthh, month12m) * 5;
+}
+
+const totalWorkTime = workHoursPerManyYearr(3, 30, 10);
+console.log(totalWorkTime);
