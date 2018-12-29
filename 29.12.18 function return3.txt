@@ -1,0 +1,11 @@
+/*автобус перевозит 435 людей в день, стоимость проезда 7грн. Сколько автобус заработает за год*/
+function countMoneyPerDay(people, price) {
+  return people * price;
+}
+
+function countMoneyPerYear(people, price) {
+  return countMoneyPerDay(people, price) * 365;
+}
+
+const totalMoney = countMoneyPerYear(935, 7);
+console.log(totalMoney);

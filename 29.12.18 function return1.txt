@@ -1,0 +1,12 @@
+/* 5 клиентов в день, сколько клиентов было принят за месяц и посчитать сколько было принято клиентов за 365 дней */
+
+function peopleCount(people, month) {
+  return people * month;
+}
+
+function peoplePerMonth(people, month) {
+  return peopleCount(people, month) * 12;
+}
+
+const totalPeople = peoplePerMonth(16, 30);
+console.log(totalPeople);

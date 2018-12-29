@@ -1,0 +1,11 @@
+/*зароботок в день составляет 1355$, сколько зарабатываю в год.*/
+
+function countSalary(salary, month) {
+  return salary * month;
+}
+function yearSalary(salary, month){
+  return countSalary(salary, month) * 12;
+}
+
+const totalSalary = yearSalary(1355, 30);
+console.log('$' + totalSalary);

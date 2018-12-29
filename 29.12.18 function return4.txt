@@ -1,0 +1,12 @@
+/*компания в среднем за месяц зарабытывает 45700$. Какой доход компании за 5 лет?*/
+
+function countYearIncome(monthIncome, year) {
+  return monthIncome * year;
+}
+
+function countFiveYearIncome(monthIncome, year) {
+  return countYearIncome(monthIncome, year) * 5;
+}
+
+const totalMoneyCompany = countFiveYearIncome(45700, 12);
+console.log("$" + totalMoneyCompany);
