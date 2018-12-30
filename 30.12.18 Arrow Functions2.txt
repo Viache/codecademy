@@ -1,0 +1,7 @@
+const peopleInCompany = (people, company) => {
+  let count = people * company;
+  return count;
+}
+
+const totalPeople = peopleInCompany(36, 6);
+console.log(totalPeople);

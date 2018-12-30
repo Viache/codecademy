@@ -1,0 +1,7 @@
+const monayInMonth = (day, oneMonth) => {
+  const countMonayInMOnth = day * oneMonth;
+  return countMonayInMOnth;
+}
+
+const totalCount = monayInMonth(456, 30);
+console.log(totalCount);

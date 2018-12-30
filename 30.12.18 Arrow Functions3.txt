@@ -1,0 +1,7 @@
+const rectangleArea = (width, height) => {
+  let area = width * height;
+  return area;
+}
+
+const totalArea = rectangleArea(5, 4);
+console.log(totalArea);
