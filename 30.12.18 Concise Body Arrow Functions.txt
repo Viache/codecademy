@@ -1,0 +1,31 @@
+const plantNeedsWater = day => day === 'Wednesday' ? true : false;
+
+const dayWed = plantNeedsWater('Wednesday');
+console.log(dayWed);
+
+/////////////////////////////////
+const forExemple = dayX => dayX === 'Monday' ? true : false;
+
+const whatDay = forExemple('Monday');
+console.log(whatDay);
+
+
+const sumNum = number => number + number;
+
+const totalSum = sumNum(5, 5);
+console.log(totalSum);
+/////////////////////////////
+
+const sumDay = daym => daym + daym;
+
+const totalSumDay = sumDay(300);
+console.log(totalSumDay);
+///////////////////////////
+
+const dayWorkCompanyPerYear = dayComp => {
+  const sumDayCompp = dayComp + dayComp;
+  return sumDayCompp;
+};
+
+const totalSumDayComp = dayWorkCompanyPerYear(45 + 3);
+console.log(totalSumDayComp);
