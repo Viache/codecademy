@@ -1,0 +1,51 @@
+const getUserChoice = userInput => {
+  userInput = userInput.toLowerCase();
+  if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
+    return userInput;
+  } else {
+    console.log('Its Error!');
+  }
+};
+
+console.log(getUserChoice('rock'));
+
+const getComputerChoice = () => {
+ const randomNumber = Math.floor(Math.random() * 3);
+  switch(randomNumber) {
+    case 0:
+     return 'rock';
+    case 1:
+     return 'paper';
+    case 2:
+     return 'scissors';
+  }
+}
+
+console.log(getComputerChoice());
+
+
+const determineWinner = (userChoice, computerChoice)=> {
+ if (userChoice === computerChoice) {
+   return 'The game is a tie!';
+ } else if (userChoice === 'rock' && computerChoice === 'paper') {
+   return 'Human player lost';
+ } else if (userChoice === 'rock' && computerChoice === 'scissors') {
+   return 'Human player won';
+ } else if (userChoice === 'paper' && computerChoice === 'rock') {
+   return ('Human player won');
+ } else if (userChoice === 'paper' && computerChoice === 'scissors') {
+   return 'Human player lost';
+ } else if (userChoice === 'scissors' && computerChoice === 'paper') {
+   return 'Human player won';
+ } else if (userChoice === 'scissors' && computerChoice === 'rock') {
+   return 'Human player lost';
+ }
+}
+
+console.log(determineWinner());
+
+
+
+
+
+
