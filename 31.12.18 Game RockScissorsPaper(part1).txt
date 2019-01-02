@@ -21,31 +21,41 @@ const getComputerChoice = () => {
   }
 }
 
-console.log(getComputerChoice());
-
-
 const determineWinner = (userChoice, computerChoice)=> {
  if (userChoice === computerChoice) {
    return 'The game is a tie!';
- } else if (userChoice === 'rock' && computerChoice === 'paper') {
-   return 'Human player lost';
- } else if (userChoice === 'rock' && computerChoice === 'scissors') {
-   return 'Human player won';
- } else if (userChoice === 'paper' && computerChoice === 'rock') {
-   return ('Human player won');
- } else if (userChoice === 'paper' && computerChoice === 'scissors') {
-   return 'Human player lost';
- } else if (userChoice === 'scissors' && computerChoice === 'paper') {
-   return 'Human player won';
- } else if (userChoice === 'scissors' && computerChoice === 'rock') {
-   return 'Human player lost';
+ } 
+  
+  if (userChoice === 'rock') {
+   if (computerChoice === 'paper'){
+     return 'Computer won!';
+   } else {
+     return 'User won!';
+   }
+ }
+  
+   if (userChoice === 'paper'){
+   if (computerChoice === 'scissors'){
+     return 'Computer won!';
+   } else {
+     return 'User won!';
+   }
+ }
+  
+   if (userChoice === 'scissors'){
+   if (computerChoice === 'rock'){
+     return 'Computer won!';
+   } else {
+     return 'User won!';
+   }
  }
 }
 
-console.log(determineWinner());
+const playGame = () =>{
+  const userChoise = getUserChoice('rock');
+  const computerChoise = getComputerChoice();
+  console.log('Your choise is: ' + userChoise);
+  console.log('The computer choise is: '+ computerChoise);
+}
 
-
-
-
-
-
+console.log(playGame());
