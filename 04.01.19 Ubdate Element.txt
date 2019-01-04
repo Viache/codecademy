@@ -1,0 +1,14 @@
+let groceryList = ['bread', 'tomatoes', 'milk'];
+console.log('I love ' + groceryList[0] + ' and sendvich width ' + groceryList[1] + '!');
+
+
+
+groceryList[1] = 'avocados';
+console.log(groceryList);
+groceryList[3] = 'roks';
+console.log(groceryList);
+
+
+
+
+
