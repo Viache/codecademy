@@ -1,0 +1,24 @@
+const logVisibleLightWaves = () => {
+  let lightWaves = 'Moonlight';
+	let region = 'The Arctic';
+  // Add if statement here:
+  if(region === 'The Arctic'){
+    let lightWaves = 'Northern Lights'
+    console.log(lightWaves);
+  }
+  console.log(lightWaves);
+};
+
+logVisibleLightWaves();
+
+const otherFunc = () => {
+  let tree1 = 'firstTree';
+  let tree2 = 'secondTree';
+  if(tree2 === 'secondTree'){
+		let tree1 = "superTree";
+    console.log(tree1);
+  }
+  console.log(tree1);
+}
+
+otherFunc();
