@@ -1,0 +1,21 @@
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments[0] = 'Mayo';
+console.log(condiments);
+
+condiments = ['Hello'];
+console.log(condiments);
+
+utensils[3] = 'Spoon';
+console.log(utensils);
+
+let newArr = ['Slava', 'Rita', 'Roma'];
+console.log(newArr);
+
+newArr[0] = 'Viacheslv';
+console.log(newArr);
+
+newArr[1] = 'Grisha';
+console.log(newArr);
