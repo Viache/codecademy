@@ -1,0 +1,24 @@
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+console.log(chores);
+chores.pop();
+console.log(chores);
+
+chores.pop();
+console.log(chores);
+
+const arrDelete = ['one', 'two', 'three', 'four'];
+const removed = arrDelete.pop();
+console.log(removed);
+console.log(arrDelete);
+
+arrDelete.push('five');
+console.log(arrDelete);
+
+arrDelete.push('six');
+console.log(arrDelete);
+const six = arrDelete.pop();
+console.log(arrDelete);
+console.log(six);
+//push
+//change
+//pop
