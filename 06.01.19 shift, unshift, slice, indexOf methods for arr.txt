@@ -1,0 +1,19 @@
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+
+//shift удаляет первый эллемент массива
+groceryList.shift();
+console.log(groceryList);
+
+//unshift добавляет эллемент вначало массива
+groceryList.unshift('popcorn');
+console.log(groceryList);
+
+console.log(groceryList.slice(1, 4));//метод slice не изминяет сами эллементы массива
+
+console.log(groceryList);
+
+const pastaIndex = groceryList.indexOf('pasta');
+console.log(pastaIndex);// метод .indexOf возвращает номер эллемента массива при его вызове.
+
+const bananasIndex = groceryList.indexOf('ccbananas');
+console.log(bananasIndex);// в случае, если такого эллемента нет, то вызвращаться будет -1 
