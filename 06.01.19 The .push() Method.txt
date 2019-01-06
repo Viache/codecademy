@@ -1,0 +1,11 @@
+let chores = ['wash dishes', 'do laundry', 'take out trash', 'how are you?', 'My name is Slava'];
+chores.push('hello');
+console.log(chores);
+
+chores[0] = 'delete';
+console.log(chores);
+
+console.log(chores.length); 
+
+chores.push('plus element');
+console.log(chores);
