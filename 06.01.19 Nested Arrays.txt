@@ -1,0 +1,9 @@
+const numberClusters = [[1, 2], [3, 4], [5, 6]];
+
+const target = numberClusters [2][1];
+console.log(target);
+//вложенные массивы
+const slava = [['slava', 'misha'], ['dima', 'masha'], ['vlad', 'artur']];
+console.log(slava.length);
+const nextSlava = slava [2][1];
+console.log(nextSlava);
