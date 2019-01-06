@@ -1,0 +1,8 @@
+const objectives = ['Learn a new languages', 'Read 52 books', 'Run a marathon'];
+console.log(objectives.length);
+
+const arr = ['asd', 'asd', 'asd', 'asd', 'asd'];
+console.log(arr.length);
+
+const newArr = ['asd', 'asd', 'asd'];
+console.log(newArr.length);
