@@ -1,0 +1,28 @@
+// Write your code below
+const bobsFollowers = ['Mark', 'Slava', 'Egor', 'Rufat'];
+
+const tinasFollowers = ['Sonya', 'Slava', 'Egor'];
+
+const mutualFollowers = ['Slava', 'Egor'];
+
+for(let i = 0; i < bobsFollowers.length; i++) {
+  for( let j = 0; j < tinasFollowers.length; j++)
+{
+  if (bobsFollowers[i] === tinasFollowers[j]){
+  	console.log('Both loops have the string: ' + mutualFollowers)  
+  }
+}
+};
+
+const slavaFoll = ['Fad', 'Lok', 'Greedo'];
+const pashaFoll = ['Grot', 'Lok', 'Greedo'];
+const mutualFoll = ['Lok', 'Greedo'];
+for(let i = 0; i < slavaFoll.length; i++){
+  for(let j = 0; j < pashaFoll.length; j++)
+{
+  if (slavaFoll[i] === pashaFoll[j]){
+    console.log('Both loops have the string: ' + 
+mutualFoll)
+  }
+}
+};
