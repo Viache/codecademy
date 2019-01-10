@@ -1,0 +1,9 @@
+//practic Math.methods
+console.log(Math.floor(4.9));// down
+console.log(Math.ceil(4.1));// up
+console.log(Math.round(4.1));// near
+console.log(Math.abs(-3.6));// cut minus
+console.log(Math.pow(45, 5));// 45*45*45*45*45
+console.log(Math.sqrt(8));//вычисление квадратного корня
+console.log(Math.sin(90 * Math.PI / 180));// find sinus
+console.log(Math.cos(0 * Math.PI / 90));// find cosinus
