@@ -1,0 +1,21 @@
+var a = 7; 
+var b = 7;
+while(a < 10){
+  console.log('Slava');
+  a++
+}
+
+var v = 6;
+var g = 8;
+while(v < 10){
+  console.log('Hello');
+  v++
+}
+
+var s = 5;
+var f = 4;
+while(s < 10 && f < 10){
+  console.log('HT')
+  s++
+  f++
+}
