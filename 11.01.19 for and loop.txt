@@ -1,0 +1,6 @@
+const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
+
+// Write you code below
+for ( let rapperArrayIndex of rapperArray) {
+  console.log(rapperArrayIndex);
+}
