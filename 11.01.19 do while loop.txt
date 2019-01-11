@@ -1,0 +1,11 @@
+// Write your code below
+let cupsOfSugarNeeded = 10;
+let cupsAdded = 0;
+
+do {
+  cupsAdded = cupsAdded + cupsOfSugarNeeded;
+  cupsAdded++;
+} while (cupsAdded < 2);
+
+console.log(cupsAdded);
+
