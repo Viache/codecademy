@@ -1,0 +1,42 @@
+const cards = ['diamond', 'hello', 'home', 'spade', 'heart', 'club'];
+
+// Write your code below
+let currentCard;
+while(currentCard != 'spade'){
+  currentCard = cards[Math.floor(Math.random() * 6)]
+  console.log(currentCard)
+}
+
+//practic Math.methods
+console.log(Math.floor(4.9));// down
+console.log(Math.ceil(4.1));// up
+console.log(Math.round(4.1));// near
+console.log(Math.abs(-3.6));// cut minus
+console.log(Math.pow(45, 5));// 45*45*45*45*45
+console.log(Math.sqrt(8));//  
+console.log(Math.sin(90 * Math.PI / 180));// find sinus
+console.log(Math.cos(0 * Math.PI / 90));// find cosinus
+console.log(Math.min(34, 456, 23, 4673));//find min number
+console.log(Math.max(345, 0.234, 5, 2, 1));// find max number
+console.log(Math.floor(Math.random() * 29))//make a random number
+
+console.log(getSomeNumber(100, 1000));
+
+function getSomeNumber(min, max){
+  return Math.floor(Math.random() * (max - min));
+}
+
+
+
+
+const first = ['Slava', 'Bob', 'Egor'];
+const second = ['Slava', 'Colins', 'Egor'];
+const mutualFollowers = ['Slava', 'Egor'];
+for(let i = 0; i < first.length; i++) {
+  for( let j = 0; j < second.length; j++)
+{
+  if (second[i] === second[j]){
+  	console.log('Both loops have the string: ' + mutualFollowers)  
+  }
+}
+};
