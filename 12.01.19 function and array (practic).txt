@@ -1,0 +1,30 @@
+var scores = [34, 34, 45, 23, 44, 22];
+scores[0] = 100;
+console.log(scores);
+var last = scores.length - 2;
+console.log(scores[last]);
+
+
+function makePhrases(){
+  var words1 = ['sdf', 'fg', 'rt'];
+	var words2 = ['dsf', 'asd', 'sdf'];
+	var words3 = ['sdg', 'rty', 'gf'];
+  
+  var radio1 = Math.floor(Math.random() * words1.length)
+  var radio2 = Math.floor(Math.random() * words2.length)
+  var radio3 = Math.floor(Math.random() * words3.length)
+  
+var phrase = words1[radio1] + " " + words2[radio2] + " " + words3[radio3];
+  console.log(phrase);
+}
+makePhrases();
+
+var scor = [34, 43, 2, 5, 23, 23, 34, 43, 2, 5, 23, 23, 34, 43, 2, 5, 23, 23, 34, 43, 2, 5, 23, 23, 34, 43, 2, 5, 23, 23];
+
+var i = 0;
+while(i < scor.length){
+  output = ('Bubbles solution # ' + i + '  score:' + scor[i]);
+  console.log(output);
+  i = i + 1;
+}
+
