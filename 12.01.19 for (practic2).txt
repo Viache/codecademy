@@ -1,0 +1,13 @@
+var scores = [3334, 43, 2, 5, 23, 23, 34, 43, 2, 5, 23, 23, 34, 43, 2, 5, 23, 23, 343, 43, 2, 5, 23, 23, 34, 43, 2, 5, 23, 23];
+
+highScore = 0;
+var output;
+for(var i = 0; i < scores.length; i++){
+  output = ('Bubless solution #' + i + ' score:' + scores[i]);
+  console.log(output);
+  if(scores[i] > highScore){
+    highScore = scores[i];
+  }
+}
+
+console.log(highScore);
