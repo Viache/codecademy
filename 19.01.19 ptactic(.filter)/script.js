@@ -22,3 +22,11 @@ const longWords = someWords.filter(long => {
 	return long.length > 3;
 });
 document.write(longWords);
+
+document.write('<br>');
+
+const words = ['asd', 'dfg', 'fgh', 'wer', 'dfg'];
+const findSomeWords = words.findIndex(find => {
+	return find === 'asd';
+});
+document.write(findSomeWords);
