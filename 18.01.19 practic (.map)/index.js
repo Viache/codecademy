@@ -29,3 +29,19 @@ const mix = everyTime.map(goal =>
 	goal[0]);
 
 document.write('My name is ' + mix.join(''));
+
+document.write('<br>');
+
+const today = ['end', 'grou', 'goal'];
+const sut = today.map(todaySut => 
+	todaySut[0]);
+
+document.write('I have ' + sut.join('') + '.');
+
+document.write('<br>');
+
+const okay = ['World', 'Of', 'Worldcraft'];
+const WoW = okay.map(WoWmap =>
+	WoWmap[0]);
+document.write('I love ' + WoW.join('') + '.');
+
