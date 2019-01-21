@@ -2,20 +2,34 @@ for(var i = 0; i < 50; i++){
 	document.write('Number ' + i + ' ');
 }
 document.write('<br>');
-for (e = 0; e < 3; e++){
+for(var oi = 5; oi < 10; oi++){
+	document.write(oi)
+}
+document.write('<br>');
+var tre = 10;
+for(; tre < 15; tre++){
+	document.write(tre);
+}
+
+document.write('<br>');
+for (e = 0; e < 6; e++){
 	document.write(e)
 }
 document.write('<br>');
-for(r = 0; r < 3; r++){
+for(r = 0; r < 5; r++){
 	document.write(r)
 }
 document.write('<br>');
 for(q = 0; q < 4; q++){
-	document.write('helo ' + q + '<br>')
+	document.write('hello ' + q + '<br>')
 }
 document.write('<br>');
 for(g = 0; g < 5; g++){
 	document.write('five ')
+}
+document.write('<br>');
+for(var ttr = 3; ttr < 5; ttr++){
+	document.write('Slava ');
 }
 document.write('<br>');
 for(v = 0; v < 4; v++){
@@ -122,6 +136,11 @@ document.write('<br>')
 for(vv = 0; vv < 10; vv++){
 	if(vv == 0 || vv == 7 || vv == 8 || vv == 9) continue;
 	document.write(vv)
+}
+document.write('<br>')
+for(var sd = 5; sd < 10; sd++){
+	if(sd == 9) continue;
+	document.write(sd);
 }
 document.write('<br>')
 for(uu = 0; uu < 10; uu++){
