@@ -185,3 +185,13 @@ const funcForFilter = filter10.filter (filt10 => {
 	return typeof filt10 === 'number';
 })
 document.write(funcForFilter);
+
+document.write('<br>');
+
+const frodo = [23, 45, 56, 67];
+const tempo = frodo.reduce((rrrt, ttty) => {
+	document.write('Its number rrrt:', rrrt + '<br>');
+	document.write('Its number ttty:', ttty + '<br>');
+	return rrrt + ttty;
+}, 100);
+document.write(tempo);
