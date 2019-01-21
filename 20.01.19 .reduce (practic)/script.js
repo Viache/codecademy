@@ -48,3 +48,13 @@ const oppa = oneMore.reduce((rt, tr) => {
   return rt + tr
 }, 12)
 document.write(oppa);
+
+document.write('<br>');
+
+const boom = [4, 3, 6, 7, 34];
+const moob = boom.reduce((eew, eer) => {
+  document.write('Number eew:', eew + '.' + '<br>');
+  document.write('Number eer:', eer + '.' + '<br>');
+  return eew + eer
+}, 25);
+document.write(moob);
