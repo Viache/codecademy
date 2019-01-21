@@ -157,3 +157,10 @@ for(dfdf = 0; dfdf < 100; dfdf++){
 	if(dfdf % 34.5 == 0) continue;
 	document.write(dfdf + ' ')
 }
+
+document.write('<br>');
+
+for(var tew = 0; tew < 10; tew++){
+	if(tew == 5) break;
+	document.write(tew);
+}

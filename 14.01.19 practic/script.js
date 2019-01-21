@@ -29,7 +29,8 @@ for (i=0; i<len; ++i) {
 document.write('<br>')
 document.write('<br>')
 
-const rapperArray = ["Lil' Kim,", "Jay-Z,", "Notorious B.I.G.,", "Tupac,"];
+const rapperArray = ["Lil' Kim,", "Jay-Z,",
+"Notorious B.I.G.,", "Tupac,"];
 for (let i = 0; i < rapperArray.length; i++){
   document.write(rapperArray[i] + ' ');
   if (rapperArray[i] === "Notorious B.I.G.,") {

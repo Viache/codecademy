@@ -18,7 +18,37 @@ const kalsdflkjasdflkj = () => {
     document.write(t);
   }
 }
+
 kalsdflkjasdflkj();
+
+document.write('<br>') 
 
 const kkk = kalsdflkjasdflkj;
 document.write(kkk.name);
+
+document.write('<br>');
+
+const someCode = () => {
+	for(let e = 1; e < 10; e++){
+		document.write(e);
+	}
+}
+someCode();
+
+document.write('<br>');
+
+const someCode2 = () => {
+	for(var q = 0; q < 10; q++){
+		document.write(q)
+	}
+}
+someCode2();
+
+document.write('<br>');
+
+const lastConst = () => {
+	for(var b = 0; b < 10; b++){
+		document.write(b);
+	}
+}
+lastConst();
